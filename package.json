@@ -1,0 +1,18 @@
+{
+  "name": "shopping_site",
+  "version": "1.0.0",
+  "description": "Take your Shop Online",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass ./sass/main.scss ./css/style.css -w"
+  },
+  "keywords": [
+    "Shop",
+    "Online"
+  ],
+  "author": "devartstar",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
